@@ -6,6 +6,7 @@
             });
      </script>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="container">
@@ -70,7 +71,7 @@
                     </div>
                 </div>
                 <center>
-                    <a href="home.aspx">
+                    <a href="homepage.aspx">
                         << Back to Home</a><span class="clearfix"></span>
                     <br />
                 <center>

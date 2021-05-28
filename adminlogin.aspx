@@ -39,7 +39,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" TextMode="Şifre" placeholder="Password">
+                                    <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" TextMode="Password" placeholder="Şifre">
 
                                     </asp:TextBox>
                                 </div>
