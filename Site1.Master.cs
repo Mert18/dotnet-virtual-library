@@ -19,8 +19,6 @@ namespace virtual_library
                     LinkButton2.Visible = true;
                     LinkButton3.Visible = false;
                     LinkButton8.Visible = false;
-                    LinkButton10.Visible = false;
-
 
                 }
                 else if(Session["role"].Equals("user"))
@@ -29,7 +27,6 @@ namespace virtual_library
                     LinkButton2.Visible = false;
                     LinkButton8.Visible = false;
                     LinkButton3.Visible = true;
-                    LinkButton10.Visible = false;
 
                 }
                 else if (Session["role"].Equals("admin"))
@@ -37,7 +34,6 @@ namespace virtual_library
                     LinkButton1.Visible = false; // user login link button
                     LinkButton2.Visible = false; // sign up link button
                     LinkButton8.Visible = true;
-                    LinkButton10.Visible = true;
                     LinkButton3.Visible = true; // logout link button
                 }
             }
@@ -86,10 +82,6 @@ namespace virtual_library
 
         }
 
-        protected void LinkButton10_Click(object sender, EventArgs e)
-        {
-
-        }
 
         protected void LinkButton4_Click(object sender, EventArgs e)
         {

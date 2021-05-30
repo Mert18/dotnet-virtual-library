@@ -72,8 +72,6 @@
                             <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click1">Admin Giriş</asp:LinkButton>
                             &nbsp;
                             <asp:LinkButton class="footerlinks" ID="LinkButton8" href="adminbookinventory.aspx" runat="server" OnClick="LinkButton8_Click">Kitap Yönetimi</asp:LinkButton>
-                            &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server" OnClick="LinkButton10_Click">Üye Yönetim</asp:LinkButton>
                         </p>
 
                     </div>
