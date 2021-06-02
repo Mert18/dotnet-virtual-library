@@ -83,11 +83,6 @@
                         </div>
                     </div>
                 </div>
-                <center>
-                    <a href="homepage.aspx">
-                        << Back to Home</a><span class="clearfix"></span>
-                    <br />
-                <center>
             </div>
         </div>
 </asp:Content>
