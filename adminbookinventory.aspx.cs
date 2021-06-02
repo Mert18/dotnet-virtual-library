@@ -16,7 +16,21 @@ namespace virtual_library
         string strcon = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
-            GridView1.DataBind();
+            try
+            {
+                if (Session["role"].Equals(null) && Session["role"].Equals("user"))
+                {
+                    Response.Redirect("/adminlogin.aspx");
+
+                }
+                GridView1.DataBind();
+            } catch(Exception ex)
+            {
+                Response.Redirect("/adminlogin.aspx");
+            }
+           
+            
+            
         }
 
         /*Add Book */

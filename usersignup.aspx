@@ -16,6 +16,15 @@
                                 </center>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <center>
+                                    <img src="/assets/ad.png" width="200px" />
+                                </center>
+                            </div>
+                        </div>
+
                         <div class="row">
                             <div class="col">
                                 <hr />

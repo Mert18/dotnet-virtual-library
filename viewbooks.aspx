@@ -12,6 +12,20 @@
     <div class="container">
             <div class="row">
 
+                <div class="row">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <div class="row">
+                            <div class="col">
+                                <center>
+                                    <img src="/assets/herman.jpg" width="650px" />
+                                </center>
+                            </div>
+                        </div>
+
+                    <br />
+
                 <div class="col-sm-12">
                     <center>
                         <h3>Kitaplar</h3>
@@ -20,7 +34,6 @@
                     <div class="row">
                         <div class="card">
                             <div class="card-body">
-
                                 <div class="row">
                                  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:virtuallibraryConnectionString %>" SelectCommand="SELECT * FROM [book_master_tbl]"></asp:SqlDataSource>
 

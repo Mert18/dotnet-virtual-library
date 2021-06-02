@@ -15,7 +15,7 @@
                             <div class="col">
                                 <center>
                                     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:virtuallibraryConnectionString %>" SelectCommand="SELECT * FROM [book_master_tbl]"></asp:SqlDataSource>
-                                    <img id="imgview" height="150px" width="100px" src="book_inventory/books1.jpg" />
+                                    <img id="imgview" height="250px" width="350px" src="assets/ph.png" />
                                 </center>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <img src="/assets/prof.png" width="150px" />
+                                    <img src="/assets/pepo.jpg" width="250px" />
                                 </center>
                             </div>
                         </div>
